@@ -1,13 +1,97 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+/*
 
     You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
+
+
+    ...Or you can use the import command to include
     other sylesheets into your bunde as well, e.j:
-    
+
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body{
+    font-family: 'Press Start 2P', cursive;
+    background: url('http://clipart-library.com/images/gieo5dbzT.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.counter{
+    position: absolute;
+    top: 50%;
+    width: 80%;
+    height: 25%;
+    box-shadow: 10px 8px 10px #000;
+}
+
+.saw{
+    margin-top: 50px;
+    background: transparent;
+
+}
+.rounded{
+    color: red;
+    background: #000;
+    border: 1px solid red;
+}
+
+.nums{
+    font-size: 80px;
+    padding-left: 70px;
+    padding-top: 35px;
+}
+
+.clocks{
+    font-size: 80px;
+    padding-top: 55px;
+    padding-left: 55px;
+}
+
+.cardz-1{
+    position: absolute;
+    top: 60%;
+    right: 79%;
+    width: 15%;
+    height: 25%;
+    box-shadow: 10px 8px 10px #000;
+}
+
+.cardz-2{
+    position: absolute;
+    top: 60%;
+    right: 61%;
+    width: 15%;
+    height: 25%;
+    box-shadow: 10px 8px 10px #000;
+}
+
+.cardz-3{
+    position: absolute;
+    top: 60%;
+    right: 43%;
+    width: 15%;
+    height: 25%;
+    box-shadow: 10px 8px 10px #000;
+}
+
+.cardz-4{
+    position: absolute;
+    top: 60%;
+    right: 25%;
+    width: 15%;
+    height: 25%;
+    box-shadow: 10px 8px 10px #000;
+}
+.cardz-5{
+     position: absolute;
+    top: 60%;
+    right: 8%;
+    width: 15%;
+    height: 25%;
+    box-shadow: 10px 8px 10px #000;
+}
