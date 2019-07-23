@@ -37,7 +37,7 @@ export class Home extends React.Component {
 	}
 }
 
-let counts = 0;
+let counts = 300;
 
 setInterval(() => {
 	let firstDigit = Math.floor(counts / 1);
@@ -45,7 +45,7 @@ setInterval(() => {
 	let thirdDigit = Math.floor(counts / 100);
 	let fourthDigit = Math.floor(counts / 1000);
 
-	counts++;
+	counts--;
 
 	ReactDOM.render(
 		<Home
